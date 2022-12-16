@@ -1,0 +1,35 @@
+/* Add some basic styling for the to-do list */
+.todo-list {
+    width: 400px;
+    margin: 0 auto;
+}
+
+form#add-item-form {
+    display: flex;
+    align-items: center;
+}
+
+input#item-name {
+    flex: 1;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+button[type="submit"] {
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+ul#item-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
